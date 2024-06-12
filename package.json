@@ -1,0 +1,21 @@
+{
+  "name": "chiqa",
+  "version": "0.0.1",
+  "description": "Message pub/sub broker",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "node out/server.js"
+  },
+  "author": "Patrick Bowen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.2",
+    "dotenv": "^16.4.5",
+    "uuidv7": "^1.0.0",
+    "ws": "^8.17.0"
+  }
+}
